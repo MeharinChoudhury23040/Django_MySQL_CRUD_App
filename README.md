@@ -30,3 +30,8 @@ It manages a simple database table named **meharin_meharinmodel** with fields: i
 - MySQL installed and running
 - pipenv installed (pip install pipenv)
 - MySQL database created (e.g., meharin_db)
+
+## Outsourcing Profile Link:  fiverr.com/meharin_40
+## LinkedIn Profile Link: linkedin.com/in/meharin-choudhury-2394b5299
+
+
