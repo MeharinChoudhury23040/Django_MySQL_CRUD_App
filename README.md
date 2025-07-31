@@ -33,5 +33,6 @@ It manages a simple database table named **meharin_meharinmodel** with fields: i
 
 ## Outsourcing Profile Link:  fiverr.com/meharin_40
 ## LinkedIn Profile Link: linkedin.com/in/meharin-choudhury-2394b5299
+## GitHub Link: https://github.com/MeharinChoudhury23040/IT23040EdgeB6 and https://github.com/MeharinChoudhury23040/Django_MySQL_CRUD_App
 
 
