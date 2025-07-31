@@ -1,0 +1,8 @@
+<h2>{% if person %}Edit{% else %}Add{% endif %} Meharin</h2>
+<form method="post">
+  {% csrf_token %}
+  <input type="text" name="name" value="{{ person.name|default:'' }}" placeholder="Name"><br><br>
+  <input type="email" name="email" value="{{ person.email|default:'' }}" placeholder="Email"><br><br>
+  <input type="number" name="age" value="{{ person.age|default:'' }}" placeholder="Age"><br><br>
+  <button type="submit">Submit</button>
+</form>

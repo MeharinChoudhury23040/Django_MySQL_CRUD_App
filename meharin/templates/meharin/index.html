@@ -1,0 +1,16 @@
+<h2>All Meharin Entries</h2>
+<a href="{% url 'add' %}">Add New</a>
+<table border="1" cellpadding="8">
+  <tr><th>Name</th><th>Email</th><th>Age</th><th>Action</th></tr>
+  {% for item in data %}
+    <tr>
+      <td>{{ item.name }}</td>
+      <td>{{ item.email }}</td>
+      <td>{{ item.age }}</td>
+      <td>
+        <a href="{% url 'edit' item.id %}">Edit</a> |
+        <a href="{% url 'delete' item.id %}">Delete</a>
+      </td>
+    </tr>
+  {% endfor %}
+</table>
